@@ -1,7 +1,10 @@
 doctype html
-html
+html(ng-app)
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
+    script(type="text/javascript", src="/javascripts/angular-1.2.14/angular.min.js")
+    script(type="text/javascript", src="/javascripts/angular-1.2.14/angular-route.min.js")
   body
     block content
